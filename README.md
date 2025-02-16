@@ -1,16 +1,24 @@
-## Hi there 👋
+# Student Record System
 
-<!--
-**suz64/suz64** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A C program to manage student records including their marks in different subjects.
 
-Here are some ideas to get you started:
+## Features
+- Store student details (name, roll number, age, address)
+- Record marks for multiple subjects:
+  - C Programming
+  - Web
+  - PC Troubleshoot
+  - Math
+  - Electrical
+- Calculate total marks and percentage
+- Save records to file
+- View all saved records
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ..      .
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## How to Use
+1. Compile the program: `gcc studentrecordsystem.c -o studentrecordsystem`
+2. Run the executable: `./studentrecordsystem`
+3. Follow the prompts to enter student details and marks
+
+## Files
+- `studentrecordsystem.c`: Main program file
+- `student.txt`: Data storage file (created automatically)
